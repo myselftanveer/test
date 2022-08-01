@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-26T15:28:40 IST" name="Default suite" finished-at="2022-07-26T15:28:41 IST" duration-ms="1586">
+    <groups>
+    </groups>
+    <test started-at="2022-07-26T15:28:40 IST" name="Default test" finished-at="2022-07-26T15:28:41 IST" duration-ms="1586">
+      <class name="RestAssured.ExcelDriven.AccessExcelData">
+        <test-method signature="getdata(java.lang.String,java.lang.String)[pri:1, instance:RestAssured.ExcelDriven.AccessExcelData@732c2a62]" started-at="2022-07-26T15:28:41 IST" name="getdata" data-provider="testData" finished-at="2022-07-26T15:28:41 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+        <test-method signature="getdata(java.lang.String,java.lang.String)[pri:1, instance:RestAssured.ExcelDriven.AccessExcelData@732c2a62]" started-at="2022-07-26T15:28:41 IST" name="getdata" data-provider="testData" finished-at="2022-07-26T15:28:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+        <test-method signature="getdata(java.lang.String,java.lang.String)[pri:1, instance:RestAssured.ExcelDriven.AccessExcelData@732c2a62]" started-at="2022-07-26T15:28:41 IST" name="getdata" data-provider="testData" finished-at="2022-07-26T15:28:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+        <test-method signature="getdata(java.lang.String,java.lang.String)[pri:1, instance:RestAssured.ExcelDriven.AccessExcelData@732c2a62]" started-at="2022-07-26T15:28:41 IST" name="getdata" data-provider="testData" finished-at="2022-07-26T15:28:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+        <test-method signature="getdata(java.lang.String,java.lang.String)[pri:1, instance:RestAssured.ExcelDriven.AccessExcelData@732c2a62]" started-at="2022-07-26T15:28:41 IST" name="getdata" data-provider="testData" finished-at="2022-07-26T15:28:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+        <test-method signature="getdata(java.lang.String,java.lang.String)[pri:1, instance:RestAssured.ExcelDriven.AccessExcelData@732c2a62]" started-at="2022-07-26T15:28:41 IST" name="getdata" data-provider="testData" finished-at="2022-07-26T15:28:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+        <test-method signature="getdata(java.lang.String,java.lang.String)[pri:1, instance:RestAssured.ExcelDriven.AccessExcelData@732c2a62]" started-at="2022-07-26T15:28:41 IST" name="getdata" data-provider="testData" finished-at="2022-07-26T15:28:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+        <test-method signature="getdata(java.lang.String,java.lang.String)[pri:1, instance:RestAssured.ExcelDriven.AccessExcelData@732c2a62]" started-at="2022-07-26T15:28:41 IST" name="getdata" data-provider="testData" finished-at="2022-07-26T15:28:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+        <test-method signature="getdata(java.lang.String,java.lang.String)[pri:1, instance:RestAssured.ExcelDriven.AccessExcelData@732c2a62]" started-at="2022-07-26T15:28:41 IST" name="getdata" data-provider="testData" finished-at="2022-07-26T15:28:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+        <test-method signature="getdata(java.lang.String,java.lang.String)[pri:1, instance:RestAssured.ExcelDriven.AccessExcelData@732c2a62]" started-at="2022-07-26T15:28:41 IST" name="getdata" data-provider="testData" finished-at="2022-07-26T15:28:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shoe park]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+        <test-method signature="getdata(java.lang.String,java.lang.String)[pri:1, instance:RestAssured.ExcelDriven.AccessExcelData@732c2a62]" started-at="2022-07-26T15:28:41 IST" name="getdata" data-provider="testData" finished-at="2022-07-26T15:28:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+        <test-method signature="getdata(java.lang.String,java.lang.String)[pri:1, instance:RestAssured.ExcelDriven.AccessExcelData@732c2a62]" started-at="2022-07-26T15:28:41 IST" name="getdata" data-provider="testData" finished-at="2022-07-26T15:28:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+      </class> <!-- RestAssured.ExcelDriven.AccessExcelData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
