@@ -8,8 +8,16 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<name>ExcelDriven</name>
-	<!-- FIXME change it to the project's website -->
-	<url>http://www.example.com</url>
+	<!-- FIXME change it to the project's website 
+	<url>http://www.example.com</url> -->
+	
+	<distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub myselftanveer Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/myselftanveer/test</url>
+        </repository>
+    </distributionManagement>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
