@@ -9,6 +9,7 @@ public class AccessExcelData {
 	public void getdata(String userName,String password) {
 		
 		System.out.println(userName);
+		System.out.println(password);
 		
 	}
 }
