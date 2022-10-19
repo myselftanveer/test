@@ -16,7 +16,7 @@ public class DataDrivenUsingExcel {
 
 	public ArrayList getExcelData(String testCaseName,String sheetName) throws Exception {
 
-		ArrayList<String> array = new ArrayList<String>();
+		ArrayList array = new ArrayList();
 
 		FileInputStream fis = new FileInputStream("./src/main/java/resourse/Daily Tasks.xlsx");
 

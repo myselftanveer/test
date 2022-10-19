@@ -1,8 +1,5 @@
 package library;
 
-import io.restassured.RestAssured;
-import io.restassured.path.json.JsonPath;
-
 import static io.restassured.RestAssured.given;
 
 import java.util.ArrayList;
@@ -13,6 +10,10 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import RestAssured.ExcelDriven.DataDrivenUsingExcel;
+import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
+
+
 
 
 public class CRUDBookApi {
@@ -52,7 +53,7 @@ public class CRUDBookApi {
 			System.out.println(id);
 	}
 	
-	//@Test(priority = 2)
+	@Test(priority = 2)
 	public void GetBookByID() {
 		
 		String getBookById=given().log().all().queryParam("ID", id).header("Content_Type", "application/json")
@@ -69,7 +70,7 @@ public class CRUDBookApi {
 		
 	}
 	
-	//@Test(priority = 3)
+	@Test(priority = 3)
 	public void GetBookByAuthor() {
 		
 		String getBookByAuthor=given().log().all().queryParam("AuthorName",author)
